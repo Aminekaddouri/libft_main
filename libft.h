@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 18:12:35 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 15:19:32 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 12:58:34 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <string.h>
-# include <fcntl.h>
 
 typedef struct s_list
 {

@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 11:22:12 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 17:41:35 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 14:05:01 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,13 +85,16 @@ char	**ft_split(char const *s, char c)
 	return (res);
 }
 
-int main()
-{
-	char **s = ft_split("My name is amine kaddouri", ' ');
-	int i = 0;
-	while (i < 5)
-	{
-		printf("%s\n", s[i]);
-		i++;
-	}
-}
+// int main()
+// {
+// 	char *str = "hello my name is kaddouri amine";
+// 	char c = ' ';
+// 	char **res = ft_split(str, c);
+// 	int i = 0;
+// 	while (i < 6)
+// 	{
+// 		printf("%s\n", res[i]);
+// 		i++;
+// 	}
+// 	return (0);
+// }

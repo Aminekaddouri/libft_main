@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 20:32:23 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/17 13:53:58 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 14:40:40 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,4 +31,13 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		i++;
 	}
 	return (0);
+}
+
+int main()
+{
+	int s1[] = {7, 16, 13, 15};
+	int s2[] = {7, 16, 6, 15};
+	
+	int i = ft_memcmp(s1, s2, 12);
+	printf("The value of i is %d\n", i);
 }

@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 12:17:48 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 18:00:51 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 13:11:20 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,17 +32,14 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	return (str);
 }
 
-// char map_function(unsigned int index, char c)
+// char ft_map(unsigned int index, char c)
 // {
-
-// 	return (c + index);
+// 	return (ft_toupper(c));
 // }
 
 // int main()
 // {
-// 	char *s = "amine kaddouri";
-
-// 	printf("%s \n", ft_strmapi(s, &map_function));
-
+// 	char *s = "Amine Kaddouri";
+// 	printf("%s\n", ft_strmapi(s, ft_map));
 // 	return (0);
 // }

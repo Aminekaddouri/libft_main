@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 21:29:15 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 17:59:46 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 13:56:25 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (str);
 }
 
-int main()
-{
-	char *res = ft_substr("Amine kaddouri", 6, 8);
-	printf("%s\n", res);
-}
+// int main()
+// {
+// 	char *s = ft_substr("Kaddouri amine", 9,0);
+// 	printf("%s\n", s);
+// 	return (0);
+// }

@@ -6,12 +6,11 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 14:34:56 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 10:51:51 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 12:34:16 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
@@ -22,11 +21,11 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	}
 }
 
-// void    print_list(t_list *lst)
+// void print_list(t_list *lst)
 // {
 // 	while (lst)
 // 	{
-// 		printf("%s ", (char *)lst->content);
+// 		printf("%s\n", (char *)lst->content);
 // 		lst = lst->next;
 // 	}
 // 	printf("\n");
@@ -34,13 +33,10 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 
 // int main()
 // {
-//     t_list *list = ft_lstnew("World!");
-// 	ft_lstadd_front(&list, ft_lstnew("Hello "));
+// 	t_list *list = NULL;
+// 	ft_lstadd_front(&list, ft_lstnew("kaddouri"));
+// 	ft_lstadd_front(&list, ft_lstnew("amine "));
 
-// 	printf("Original List : \n");
 // 	print_list(list);
-
-// 	ft_lstadd_front(&list, ft_lstnew("Grettings"));
-// 	print_list(list);
-//     return (0); 
+// 	return (0);
 // }

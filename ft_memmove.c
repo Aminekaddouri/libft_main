@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 17:29:07 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/17 09:59:53 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 14:22:31 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,16 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		ft_memcpy(dst, src, len);
 	return (dst);
 }
+
+// int main()
+// {
+// 	int n[] = {47, 51, 12, 9};
+// 	unsigned char *res = ft_memmove(n + 2, n, 8);
+// 	int i = 0;
+// 	while (i < 8)
+// 	{
+// 		printf("%d\n", res[i]);
+// 		i += 4;
+// 	}
+// 	return (0);
+// }

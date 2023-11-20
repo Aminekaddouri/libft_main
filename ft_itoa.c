@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 11:41:58 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 17:35:18 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 13:56:30 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,7 @@ char	*ft_itoa(int n)
 
 // int main()
 // {
-// 	printf("%s\n", ft_itoa(1245978));
+// 	char *s = ft_itoa(985471236);
+// 	printf("%s\n", s);
+// 	return (0);
 // }

@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 10:53:01 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 17:44:24 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 14:02:33 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,11 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (str);
 }
 
-int main()
-{
-	char *s = ft_strtrim("ssAmine Kaddourissss", "ss");
-	printf("%s\n", s);
-
-}
+// int main()
+// {
+// 	char *s1 = "aaakaddouri amineaaa";
+// 	char *set = "a";
+// 	char *res = ft_strtrim(s1, set);
+// 	printf("%s\n", res);
+// 	return (0);
+// }

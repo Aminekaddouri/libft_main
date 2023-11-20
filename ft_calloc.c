@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 20:39:10 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/13 21:19:23 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 14:46:13 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,15 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
+
+// int main()
+// {
+// 	char *s = ft_calloc(4, 4);
+// 	int i = 0;
+// 	while (i < 16)
+// 	{
+// 		printf("%d\n", s[i]);
+// 		i++;
+// 	}
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 18:47:03 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 12:44:12 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 12:53:23 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,23 +24,32 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 	}
 }
 
-// void    print_content(void *content)
+// void print_list(t_list *lst)
 // {
-//     printf("%s ", (char *)content); 
+// 	while (lst)
+// 	{
+// 		printf("%s \n", (char *)lst->content);
+// 		lst = lst->next;
+// 	}
+// 	printf("\n");
+// }
+
+// void ft_iterate(void *content)
+// {
+// 	printf("The iterated list : %s\n", strcat(content, "1337"));
 // }
 
 // int main()
 // {
-//     t_list *list = NULL; 
+// 	t_list *list = NULL;
+// 	ft_lstadd_back(&list, ft_lstnew(strdup("Amine")));
+// 	ft_lstadd_back(&list, ft_lstnew(strdup("Kaddouri")));
 
-//     ft_lstadd_front(&list, ft_lstnew(strdup("World!")));
-//     ft_lstadd_front(&list, ft_lstnew(strdup("Hello,")));
-//     ft_lstadd_front(&list, ft_lstnew(strdup("Gerritings ")));
+// 	printf("The original List\n");
+// 	print_list(list);
 
-//     // Print the original list
-//     printf("Original List: ");
-//     ft_lstiter(list, print_content);
-//     printf("\n");
+// 	printf("The iterated List\n");
+// 	ft_lstiter(list, ft_iterate);
 
-//     return 0; // Exit successfully
+// 	return (0);
 // }

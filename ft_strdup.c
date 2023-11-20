@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 20:03:32 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/14 13:46:28 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 14:47:44 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,4 +28,11 @@ char	*ft_strdup(const char *s1)
 	}
 	str[i] = '\0';
 	return (str);
+}
+
+int main()
+{
+	char *s1 = "amine";
+	char *res = ft_strdup(s1);
+	printf("%s\n", res);
 }

@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 18:49:03 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 16:41:45 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 12:55:15 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,38 +40,40 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	return (result);
 }
 
-// void    *duplicate_content(void *content)
+// void print_list(t_list *lst)
 // {
-//     return strdup((char *)content);
+// 	while (lst)
+// 	{
+// 		printf("%s \n", (char *)lst->content);
+// 		lst = lst->next;
+// 	}
+// 	printf("\n");
 // }
 
-// void    *print_content(void *content)
+// void delete_content(void *content)
 // {
-//     printf("%s ", (char *)content);
-// 	return (content);
+// 	free(content);
 // }
 
-// void    delete_content(void *content)
+// void *ft_iterate(void *content)
 // {
-//     free(content);
+// 	char *res = strcat(content, "1337");
+// 	return (res);
 // }
 
 // int main()
 // {
-//     t_list *list = NULL;
+// 	t_list *list = NULL;
+// 	ft_lstadd_back(&list, ft_lstnew(strdup("Amine")));
+// 	ft_lstadd_back(&list, ft_lstnew(strdup("Kaddouri")));
 
-//     ft_lstadd_front(&list, ft_lstnew("World!"));
-//     ft_lstadd_front(&list, ft_lstnew("Hello,"));
+// 	printf("The original List\n");
+// 	print_list(list);
 
-//     printf("Original List: ");
-//     ft_lstmap(list, print_content, delete_content);
-//     printf("\n");
+// 	t_list *new_list = ft_lstmap(list, ft_iterate, delete_content);
 
-//     t_list *newList = ft_lstmap(list, duplicate_content, delete_content);
+// 	printf("the maped list \n");
+// 	print_list(new_list);
 
-//     printf("New List: ");
-//     ft_lstmap(newList, print_content, delete_content);
-//     printf("\n");
-
-//     return (0);
+// 	return (0);	
 // }

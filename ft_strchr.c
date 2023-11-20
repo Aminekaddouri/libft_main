@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 18:56:37 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/12 19:02:16 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 15:03:46 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,12 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s + i);
 	return (NULL);
 }
+
+// int  main()
+// {
+// 	char *s = "amine kaddouri";
+// 	char c = 'k';
+// 	char *res = ft_strchr(s, c);
+// 	printf("%s\n", res);
+// 	return (0);
+// }

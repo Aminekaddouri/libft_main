@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 18:52:52 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/12 18:54:43 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 14:58:01 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,11 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+// int main()
+// {
+// 	char *s = "\0";
+// 	size_t i = strlen(s);
+// 	printf("%zu\n", i);
+// 	return (0);
+// }

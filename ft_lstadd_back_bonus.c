@@ -6,7 +6,7 @@
 /*   By: akaddour <akaddour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/15 16:51:33 by akaddour          #+#    #+#             */
-/*   Updated: 2023/11/19 11:21:53 by akaddour         ###   ########.fr       */
+/*   Updated: 2023/11/20 11:18:15 by akaddour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 // {
 // 	while (lst)
 // 	{
-// 		printf("%s ", (char *)lst->content);
+// 		printf("%s\n", (char *)lst->content);
 // 		lst = lst->next;
 // 	}
 // 	printf("\n");
@@ -41,15 +41,10 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 // int main()
 // {
 // 	t_list *list = NULL;
-// 	ft_lstadd_back(&list, ft_lstnew("My name Is"));
-// 	ft_lstadd_back(&list, ft_lstnew("Amine"));
+// 	ft_lstadd_back(&list, ft_lstnew("amine "));
+// 	ft_lstadd_back(&list, ft_lstnew("kaddouri" ));
+// 	ft_lstadd_back(&list, ft_lstnew("1337"));
 
-// 	printf("The Original List \n");
 // 	print_list(list);
-
-// 	ft_lstadd_back(&list, ft_lstnew("Kaddouri"));
-// 	printf("Updated List\n");
-// 	print_list(list);
-
 // 	return (0);
 // }
